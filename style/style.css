@@ -42,7 +42,7 @@ html {
 }
 
 .item {
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #525252;
     cursor: pointer;
 }
@@ -105,4 +105,48 @@ html {
     }
 }
 
+/* body/hero */
+.caption{
+    font-size: 1.5rem;
+}
 
+/* footer */
+ul {
+    padding-left: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions{
+    display: flex;
+    font-size: 1.5rem;
+    line-height: 1;
+    align-items: center;
+    gap: 1rem;
+}
+.query{
+    font-family: 'Playfair Display', serif;
+}
+
+.query,
+.ask{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ask{
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        flex-direction:column;
+    }
+    
+    .socials {
+        margin: 2.5rem 0;
+    }
+}
