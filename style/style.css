@@ -136,10 +136,12 @@ html {
 
 .hero__image{
     text-align: center;
+    position: relative;
 }
 
 .hero__image img {
     max-width: 60%;
+    min-width: 60%;
 }
 
 .tick{
