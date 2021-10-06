@@ -155,6 +155,10 @@ html {
         grid-template-columns: 1fr;
     }
 
+    .hero__image img{
+        max-width: 50%;
+    }
+
     .hero__child:nth-child(1) {
         order:1;
     }
@@ -165,6 +169,10 @@ html {
 }
 
 @media screen and (max-width: 668px){
+    .hero__image img{
+        max-width: 70%;
+    }
+
     .email{
         box-sizing: border-box;
         width: 100%;
@@ -180,6 +188,7 @@ html {
         margin-bottom: 1rem;
     }
 }
+
 
 /* footer */
 ul {
